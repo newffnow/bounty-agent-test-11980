@@ -1,8 +1,8 @@
 """Simple buggy module for bounty-agent test"""
 
 def add(a, b):
-    # BUG: subtracts instead of adds
-    return a - b
+    # FIXED: now adds correctly
+    return a + b
 
 if __name__ == "__main__":
     # This should pass after fix
